@@ -1,0 +1,180 @@
+{
+    "code":200,
+    "msg":"请求成功",
+    "data":[
+        {
+            "id":"100009",
+            "name":"实时态势",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100900",
+            "name":"设置",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100901",
+            "name":"系统设置",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100902",
+            "name":"传真通讯录",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100001",
+            "name":"首页",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100002",
+            "name":"飞行审核",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100200",
+            "name":"公告",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100003",
+            "name":"空域审核",
+            "children":[
+                {
+                    "id":"100010",
+                    "name":"查看",
+                    "children":null
+                },
+                {
+                    "id":"100011",
+                    "name":"全部导出",
+                    "children":null
+                },
+                {
+                    "id":"100012",
+                    "name":"编辑",
+                    "children":null
+                },
+                {
+                    "id":"100016",
+                    "name":"审核",
+                    "children":null
+                },
+                {
+                    "id":"100017",
+                    "name":"受理",
+                    "children":null
+                }
+            ]
+        },
+        {
+            "id":"100201",
+            "name":"管制公告",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100102",
+            "name":"计划审核(民航)",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100004",
+            "name":"计划审核",
+            "children":[
+                {
+                    "id":"100013",
+                    "name":"查看",
+                    "children":null
+                },
+                {
+                    "id":"100014",
+                    "name":"导出",
+                    "children":null
+                },
+                {
+                    "id":"100015",
+                    "name":"批量审核",
+                    "children":null
+                },
+                {
+                    "id":"100018",
+                    "name":"审核",
+                    "children":null
+                },
+                {
+                    "id":"100019",
+                    "name":"报备补录",
+                    "children":null
+                }
+            ]
+        },
+        {
+            "id":"100005",
+            "name":"通航许可",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100401",
+            "name":"飞行进程单",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100006",
+            "name":"航空器信息",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100600",
+            "name":"报表",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100007",
+            "name":"飞行员信息",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100601",
+            "name":"飞行数据报表",
+            "children":[
+
+            ]
+        },
+        {
+            "id":"100008",
+            "name":"通航企业管理",
+            "children":[
+
+            ]
+        }
+    ]
+}
