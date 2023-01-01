@@ -11,7 +11,7 @@ Vue.use(Router)
 
 
 export default new Router({
-	//mode:'history/hash',
+	mode:'history',
   routes: [
     {
       path: '/',
@@ -31,6 +31,11 @@ export default new Router({
     {
     	path:'/gohome',
     	redirect:"/"
+    },
+    {
+    	path:'/index',
+      name:"index",
+    	component:() => import('@/components/index')
     },
     {
     	path:"*",

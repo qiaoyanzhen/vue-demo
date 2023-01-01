@@ -5,12 +5,29 @@
 const path = require('path')
 
 module.exports = {
+  chainWebpack: config => {
+    config.plugin('provide').use(webpack.ProvidePlugin, [{
+      $: 'jquery',
+      jquery: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery'
+    }])
+  },
+
   dev: {
 
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {
+      '/api': {                       //需要代理的接口
+        target:'https://echarts.apache.org/examples', //目标服务器
+        changeOrigin: true, //是否跨域
+        pathRewrite: {
+          '^/api': ''             //重定向
+        }
+      }
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
@@ -35,7 +52,8 @@ module.exports = {
 
     cssSourceMap: true
   },
-
+   
+  
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),

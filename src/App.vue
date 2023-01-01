@@ -47,7 +47,9 @@
 					        </el-menu-item-group>
 					        <el-menu-item-group>
 					        	 <el-menu-item index="/new/new2/222/111">新闻页2</el-menu-item>
-					        	  <!--<router-link to="/new/new2/222/111">新闻页2</router-link>-->
+					        </el-menu-item-group>
+							<el-menu-item-group>
+					        	 <el-menu-item index="/index">echarts图表</el-menu-item>
 					        </el-menu-item-group>
 				      </el-submenu>
 				      <el-menu-item index="/">

@@ -7,6 +7,8 @@ import App from './App'
 import router from './router'
 import 'element-ui/lib/theme-chalk/index.css';
 
+import * as echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 
 
 
